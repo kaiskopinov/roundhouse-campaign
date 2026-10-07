@@ -1,0 +1,22 @@
+/* Layout, radius & effect tokens with units (Figma FLOAT variables are unitless in fig-tokens.css). */
+:root{
+--radius-2:2px;--radius-3:3px;--radius-4:4px;--radius-6:6px;--radius-9:9px;
+--radius-default:12px;   /* cards, buttons, images, icon tiles */
+--radius-badge:14px;     /* floating template badges */
+--space-4:4px;--space-6:6px;--space-8:8px;--space-12:12px;--space-16:16px;--space-20:20px;--space-24:24px;--space-32:32px;--space-40:40px;--space-48:48px;--space-60:60px;
+--grid-gap:6px;          /* every card grid in the site uses a 6px gutter */
+--section-padding-small:48px;--section-padding-medium:96px;--section-padding-large:144px;
+--content-width-small:412px;--content-width-medium:654px;--content-width-large:896px;--content-width-x-large:1138px;--content-width-container:1428px;
+--nav-height:76px;
+--blur-nav:8px;--blur-badges:12px;--blur-bottom:7px;
+--shadow-badge:0px 0px 0px 1px rgba(0,0,0,0.1),0px 1px 3px 0px rgba(0,0,0,0.1);
+--ring-subtle:inset 0 0 0 1px rgb(242,242,242); /* @kind shadow */
+
+--opacity-hover-80:0.8; /* @kind other */
+--opacity-hover-60:0.6; /* @kind other */
+--opacity-hover-50:0.5; /* @kind other */
+
+--ease-standard:cubic-bezier(.25,.1,.25,1); /* @kind other */
+--duration-fast:200ms; /* @kind other */
+
+}

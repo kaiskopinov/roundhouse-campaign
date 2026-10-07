@@ -1,0 +1,894 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Your campaign, built</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="rgb(58,106,187)"/><text x="50" y="62" font-family="sans-serif" font-size="34" font-weight="700" fill="#fff" text-anchor="middle">RH</text></svg></template>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="_ds/roundhouse-labs-design-system-a495208d-ebfb-489b-85b7-52398abb05e5/tokens/fonts.css">
+<link rel="stylesheet" href="_ds/roundhouse-labs-design-system-a495208d-ebfb-489b-85b7-52398abb05e5/tokens/fig-tokens.css">
+<link rel="stylesheet" href="_ds/roundhouse-labs-design-system-a495208d-ebfb-489b-85b7-52398abb05e5/tokens/colors.css">
+<link rel="stylesheet" href="_ds/roundhouse-labs-design-system-a495208d-ebfb-489b-85b7-52398abb05e5/tokens/typography.css">
+<link rel="stylesheet" href="_ds/roundhouse-labs-design-system-a495208d-ebfb-489b-85b7-52398abb05e5/tokens/spacing.css">
+<link rel="stylesheet" href="_ds/roundhouse-labs-design-system-a495208d-ebfb-489b-85b7-52398abb05e5/tokens/base.css">
+<link rel="stylesheet" href="_ds/roundhouse-labs-design-system-a495208d-ebfb-489b-85b7-52398abb05e5/styles.css">
+<script src="_ds/roundhouse-labs-design-system-a495208d-ebfb-489b-85b7-52398abb05e5/_ds_bundle.js"></script>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;background:#FFFFFF;overflow-x:hidden}
+a{color:#000000;text-decoration:none}a:hover{color:rgb(58,106,187)}
+input:focus-visible,a:focus-visible,button:focus-visible{outline:2px solid rgb(58,106,187);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</helmet>
+
+<div style="font-family: var(--font-sans); color: var(--black); background: var(--white); min-width: 0; font-size: 16px; line-height: 24px">
+
+<header style="position: sticky; top: 0; z-index: 20; min-height: 76px; border-bottom: 1px solid var(--border-subtle); background: var(--surface-nav); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px)">
+<div style="width: 100%; max-width: 1428px; margin: 0 auto; padding-inline: 20px; min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-block: 12px">
+<div style="display: flex; align-items: center; gap: 20px; min-width: 0">
+<img src="assets/roundhouse-logo.png" alt="{{company}}" style="height: 32px; display: block">
+<span style="font-size: 14px; line-height: 21px; color: var(--text-secondary); min-width: 0">Prepared for <strong style="font-weight: 500; color: var(--black)">{{company}}</strong> by Cashflow State</span>
+</div>
+<div style="display: flex; align-items: center; gap: 16px; flex-wrap: wrap; justify-content: flex-end"><nav aria-label="Pages" style="display: flex; align-items: center; gap: 4px"><a href="index.html" aria-current="page" style="padding: 6px 12px; border-radius: 8px; background: var(--neutral-50); font-size: 14px; line-height: 21px; font-weight: 500; color: var(--black); text-decoration: none">Campaign</a><a href="deck.html" style="padding: 6px 12px; border-radius: 8px; font-size: 14px; line-height: 21px; font-weight: 500; color: var(--text-secondary); text-decoration: none" style-hover="color: var(--black); background: var(--neutral-50)">Deck</a></nav><x-import component-from-global-scope="RoundhouseLabsDesignSystem_a49520.Component1" href="{{bookingLink}}" hint-size="120px,45px">Book a call</x-import></div>
+</div>
+</header>
+
+<section style="padding: 95px 0 0; display: flex; flex-direction: column; align-items: center; gap: 48px">
+<div style="width: 100%; max-width: 1138px; padding: 0 20px; display: flex; flex-direction: column; align-items: center; gap: 22px; text-align: center">
+<p style="margin: 0; font-family: var(--font-mono); font-weight: 400; font-size: 14px; line-height: 19.6px; text-transform: uppercase; color: var(--text-secondary)">Your outbound campaign, already built</p>
+<h1 style="margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(36px, 5vw, 56px); line-height: 1.1; color: var(--black); text-wrap: balance; font-size: clamp(40px, 6vw, 72px); max-width: 18ch">We'll send <span style="display: inline-block; height: 1.15em; overflow: hidden; vertical-align: bottom; color: var(--accent); font-variant-numeric: tabular-nums"><span style="display: block; transform: translateY({{flipY}}); transition: {{flipT}}"><sc-for list="{{flipNums}}" as="n" hint-placeholder-count="5"><span style="display: block; height: 1.15em; line-height: 1.15">{{n}}</span></sc-for></span></span> emails a day to {{icp}}.</h1>
+<p style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black); max-width: 56ch; text-wrap: pretty">We email them, call everyone who shows interest within minutes, and put them on your calendar. You only pay for the ones that show, and the system is yours to keep.</p>
+<div style="display: flex; gap: 8px; flex-wrap: wrap; justify-content: center">
+<x-import component-from-global-scope="RoundhouseLabsDesignSystem_a49520.Component1" href="{{bookingLink}}" hint-size="120px,45px">Book a call</x-import>
+<x-import component-from-global-scope="RoundhouseLabsDesignSystem_a49520.Component1" href="#built" variant="secondary" style="box-shadow: inset 0 0 0 1px rgb(242, 242, 242)" hint-size="120px,45px">See what we built</x-import>
+</div>
+<p style="margin: 0; font-size: 16px; line-height: 24px; color: var(--text-secondary); max-width: 60ch">We've booked calls with giants like Porsche, LVMH, Universal Music, Garney Construction, GH Phipps, and more.</p>
+</div>
+<div style="align-self: stretch; height: clamp(320px, 46vw, 720px); background: url(assets/hero-texture.jpg) 50% 50% / cover no-repeat"></div>
+</section>
+
+<section id="built" style="padding: 192px 0 96px">
+<div style="width: 100%; max-width: 1428px; margin: 0 auto; padding-inline: 20px; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; align-items: flex-end; gap: 6px 40px; justify-content: space-between; flex-wrap: wrap">
+<div style="display: flex; flex-direction: column; gap: 16px; flex: 1 1 320px; min-width: 0">
+<p style="margin: 0; font-family: var(--font-mono); font-weight: 400; font-size: 14px; line-height: 19.6px; text-transform: uppercase; color: var(--text-secondary)">What's inside</p>
+<h2 style="margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(30px, 3.5vw, 40px); line-height: 1.15; color: var(--black); text-wrap: balance; max-width: 22ch">We already did the work for {{company}}.</h2>
+<p style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black); color: var(--text-secondary); max-width: 62ch; text-wrap: pretty">Everything below was made for you before this page was sent. Look through it, then let's talk.</p>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 6px">
+<a href="#buyers" style="background: var(--surface-card); border-radius: 12px; min-width: 0; padding: 16px; min-height: 340px; display: flex; flex-direction: column; justify-content: space-between; gap: 32px; text-decoration: none; color: var(--black)" style-hover="background: var(--surface-card-hover)">
+<img src="assets/3d-icon-1.png" alt="" style="width: 100px; height: 100px; border-radius: 12px; display: block">
+<div style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">Your buyers</span><span style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black)">Who we'd go after</span><span style="margin: 0; font-size: 16px; line-height: 24px; color: var(--text-secondary)">Titles, company types and why they'd say yes</span></div>
+</a>
+<a href="#leads" style="background: var(--surface-card); border-radius: 12px; min-width: 0; padding: 16px; min-height: 340px; display: flex; flex-direction: column; justify-content: space-between; gap: 32px; text-decoration: none; color: var(--black)" style-hover="background: var(--surface-card-hover)">
+<img src="assets/3d-icon-2.png" alt="" style="width: 100px; height: 100px; border-radius: 12px; display: block">
+<div style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">Your leads</span><span style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black)">Real people, real emails</span><span style="margin: 0; font-size: 16px; line-height: 24px; color: var(--text-secondary)">A sample from your list, ready to contact</span></div>
+</a>
+<a href="#emails" style="background: var(--surface-card); border-radius: 12px; min-width: 0; padding: 16px; min-height: 340px; display: flex; flex-direction: column; justify-content: space-between; gap: 32px; text-decoration: none; color: var(--black)" style-hover="background: var(--surface-card-hover)">
+<img src="assets/3d-icon-3.png" alt="" style="width: 100px; height: 100px; border-radius: 12px; display: block">
+<div style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">Your emails</span><span style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black)">The email we'd send</span><span style="margin: 0; font-size: 16px; line-height: 24px; color: var(--text-secondary)">Written for your buyers, in your voice</span></div>
+</a>
+<a href="#setup" style="background: var(--surface-card); border-radius: 12px; min-width: 0; padding: 16px; min-height: 340px; display: flex; flex-direction: column; justify-content: space-between; gap: 32px; text-decoration: none; color: var(--black)" style-hover="background: var(--surface-card-hover)">
+<img src="assets/3d-icon-4.png" alt="" style="width: 100px; height: 100px; border-radius: 12px; display: block">
+<div style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">Your setup</span><span style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black)">Domains and mailboxes</span><span style="margin: 0; font-size: 16px; line-height: 24px; color: var(--text-secondary)">Built around your brand, never your main domain</span></div>
+</a>
+</div>
+</div>
+</section>
+
+<section id="buyers" style="padding-block: 96px; background: var(--surface-card)">
+<div style="width: 100%; max-width: 1428px; margin: 0 auto; padding-inline: 20px; display: flex; flex-direction: column; gap: 48px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); gap: 6px; align-items: stretch">
+<div style="display: flex; flex-direction: column; justify-content: space-between; gap: 48px; min-width: 0">
+<div style="display: flex; flex-direction: column; gap: 16px; padding-bottom: 32px">
+<p style="margin: 0; font-family: var(--font-mono); font-weight: 400; font-size: 14px; line-height: 19.6px; text-transform: uppercase; color: var(--text-secondary)">Your ideal customer</p>
+<h2 style="margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(30px, 3.5vw, 40px); line-height: 1.15; color: var(--black); text-wrap: balance">Who we'd put on your calendar.</h2>
+<p style="margin: 0; font-size: 16px; line-height: 24px; color: var(--black); color: var(--text-secondary); text-wrap: pretty">{{icpSummary}}</p>
+</div>
+<div style="background: var(--white); border: 1px solid var(--border-subtle); border-radius: 12px; min-width: 0; padding: 24px; display: flex; flex-direction: column; gap: 32px">
+<h3 style="margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(24px, 2.5vw, 32px); line-height: 1.2; color: var(--black); text-wrap: pretty">{{insights.4.value}}</h3>
+<div style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">{{insights.4.label}}</div>
+</div>
+</div>
+<div style="border-radius: 12px; min-height: 420px; background: url(assets/texture-1.jpg) 50% 50% / cover no-repeat"></div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 6px">
+<div style="display: flex; flex-direction: column; gap: 8px; min-width: 0"><span style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">{{insights.0.label}}</span><span style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black)">{{insights.0.value}}</span></div>
+<div style="display: flex; flex-direction: column; gap: 8px; min-width: 0"><span style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">{{insights.1.label}}</span><span style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black)">{{insights.1.value}}</span></div>
+<div style="display: flex; flex-direction: column; gap: 8px; min-width: 0"><span style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">{{insights.2.label}}</span><span style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black)">{{insights.2.value}}</span></div>
+<div style="display: flex; flex-direction: column; gap: 8px; min-width: 0"><span style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">{{insights.3.label}}</span><span style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black)">{{insights.3.value}}</span></div>
+</div>
+<div style="background: var(--white); border: 1px solid var(--border-subtle); border-radius: 12px; min-width: 0; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">{{insights.5.label}}</span>
+<p style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black); max-width: 80ch; text-wrap: pretty">{{insights.5.value}}</p>
+</div>
+</div>
+</section>
+
+<section id="leads" style="padding-block: 96px; background: var(--white)">
+<div style="width: 100%; max-width: 1428px; margin: 0 auto; padding-inline: 20px; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; align-items: flex-end; gap: 6px 40px; justify-content: space-between; flex-wrap: wrap">
+<div style="display: flex; flex-direction: column; gap: 16px; flex: 1 1 320px; min-width: 0">
+<p style="margin: 0; font-family: var(--font-mono); font-weight: 400; font-size: 14px; line-height: 19.6px; text-transform: uppercase; color: var(--text-secondary)">Your leads</p>
+<h2 style="margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(30px, 3.5vw, 40px); line-height: 1.15; color: var(--black); text-wrap: balance; max-width: 22ch">A sample of your leads.</h2>
+<p style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black); color: var(--text-secondary); max-width: 62ch; text-wrap: pretty">{{leadsCount}} real decision makers who match your ideal customer, each email and phone number checked before it goes on a list. The full list is built the same way. These are yours to keep, whatever you decide.</p>
+</div>
+</div>
+<div style="background: var(--white); border: 1px solid var(--border-subtle); border-radius: 12px; min-width: 0; overflow-x: auto; max-width: 100%">
+<table style="width: 100%; min-width: 820px; border-collapse: collapse">
+<thead><tr><th style="text-align: left; padding: 12px 16px; background: var(--surface-card); border-bottom: 1px solid var(--border-subtle); font-weight: 400; font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">Name</th><th style="text-align: left; padding: 12px 16px; background: var(--surface-card); border-bottom: 1px solid var(--border-subtle); font-weight: 400; font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">Title</th><th style="text-align: left; padding: 12px 16px; background: var(--surface-card); border-bottom: 1px solid var(--border-subtle); font-weight: 400; font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">Company</th><th style="text-align: left; padding: 12px 16px; background: var(--surface-card); border-bottom: 1px solid var(--border-subtle); font-weight: 400; font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">Email</th><th style="text-align: left; padding: 12px 16px; background: var(--surface-card); border-bottom: 1px solid var(--border-subtle); font-weight: 400; font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">Phone</th><th style="text-align: left; padding: 12px 16px; background: var(--surface-card); border-bottom: 1px solid var(--border-subtle); font-weight: 400; font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">Location</th></tr></thead>
+<tbody>
+<sc-for list="{{leads}}" as="l" hint-placeholder-count="10">
+<tr><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; font-weight: 500">{{l.name}}</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px">{{l.title}}</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px">{{l.company}}</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; font-family: var(--font-mono); font-size: 13px">{{l.email}}</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; font-family: var(--font-mono); font-size: 13px; white-space: nowrap">{{l.phone}}</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; color: var(--text-secondary)">{{l.location}}</td></tr>
+</sc-for>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+
+<section id="emails" style="padding-block: 96px; background: var(--surface-card)">
+<div style="width: 100%; max-width: 1428px; margin: 0 auto; padding-inline: 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(380px, 100%), 1fr)); gap: 6px; align-items: stretch">
+<div style="display: flex; flex-direction: column; gap: 16px; padding: 0 0 32px; min-width: 0">
+<p style="margin: 0; font-family: var(--font-mono); font-weight: 400; font-size: 14px; line-height: 19.6px; text-transform: uppercase; color: var(--text-secondary)">Your emails</p>
+<h2 style="margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(30px, 3.5vw, 40px); line-height: 1.15; color: var(--black); text-wrap: balance">The email we'd send them.</h2>
+<p style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black); color: var(--text-secondary); max-width: 48ch; text-wrap: pretty">Short and plain, from a real person. Every company gets its own opening line, written after we read their website. Here it is as it would go to the first lead above.</p>
+<div style="flex-grow: 1; min-height: 200px; border-radius: 12px; margin-top: 16px; background: url(assets/texture-2.jpg) 50% 50% / cover no-repeat"></div>
+</div>
+<div style="background: var(--white); border: 1px solid var(--border-subtle); border-radius: 12px; min-width: 0; overflow: hidden; display: flex; flex-direction: column">
+<div style="padding: 16px 24px; border-bottom: 1px solid var(--border-subtle); font-size: 14px; line-height: 21px; display: flex; flex-direction: column; gap: 6px">
+<div style="display: flex; flex-wrap: wrap; gap: 2px 10px"><span style="color: var(--text-secondary); min-width: 64px">From:</span><span style="font-family: var(--font-mono); font-size: 13px; overflow-wrap: anywhere; min-width: 0">{{emailFrom}}</span></div>
+<div style="display: flex; flex-wrap: wrap; gap: 2px 10px"><span style="color: var(--text-secondary); min-width: 64px">To:</span><span style="font-family: var(--font-mono); font-size: 13px; overflow-wrap: anywhere; min-width: 0">{{emailTo}}</span></div>
+<div style="display: flex; flex-wrap: wrap; gap: 2px 10px"><span style="color: var(--text-secondary); min-width: 64px">Subject:</span><strong style="font-weight: 500">{{emailSubject}}</strong></div>
+</div>
+<div style="padding: 32px 24px; margin: 0; font-size: 16px; line-height: 24px; color: var(--black); line-height: 26px; white-space: pre-line; flex-grow: 1">{{emailBody}}</div>
+</div>
+</div>
+</section>
+
+<section id="deck" style="padding-block: 96px">
+<div style="width: 100%; max-width: 1428px; margin: 0 auto; padding-inline: 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(380px, 100%), 1fr)); gap: 6px; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 16px; min-width: 0; padding-right: 40px">
+<p style="margin: 0; font-family: var(--font-mono); font-weight: 400; font-size: 14px; line-height: 19.6px; text-transform: uppercase; color: var(--text-secondary)">Your sales deck</p>
+<h2 style="margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(30px, 3.5vw, 40px); line-height: 1.15; color: var(--black); text-wrap: balance">What your buyers get after they book.</h2>
+<p style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black); color: var(--text-secondary); max-width: 48ch; text-wrap: pretty">Before every call, the person who booked gets a short deck about {{company}}, so they show up knowing who you are and what you do.</p>
+<div style="display: flex; gap: 8px; padding-top: 8px"><x-import component-from-global-scope="RoundhouseLabsDesignSystem_a49520.Component1" href="{{deckLink}}" hint-size="120px,45px">Open the deck</x-import></div>
+</div>
+<div style="min-width: 0">
+<sc-if value="{{hasDeckCover}}" hint-placeholder-val="{{ false }}">
+<img src="{{deckCoverUrl}}" alt="First slide of the {{company}} sales deck" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 12px; display: block">
+</sc-if>
+<sc-if value="{{noDeckCover}}" hint-placeholder-val="{{ true }}">
+<div ref="{{deckBoxRef}}" onMouseEnter="{{deckHoverOn}}" onMouseLeave="{{deckHoverOff}}" style="position: relative; width: 100%; aspect-ratio: 16 / 10; border-radius: 12px; background: var(--white); min-width: 0; overflow: hidden; border: 1px solid var(--border-subtle)"><iframe ref="{{deckFrameRef}}" src="{{deckLink}}" title="{{company}} sales deck preview" loading="lazy" style="position: absolute; left: 0; top: 0; width: 1280px; height: 800px; border: 0; transform-origin: 0 0; display: block"></iframe><a href="{{deckLink}}" style="position: absolute; right: 12px; bottom: 12px; padding: 8px 14px; border-radius: 12px; background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); box-shadow: inset 0 0 0 1px rgb(242, 242, 242); font-family: var(--font-mono); font-size: 13px; line-height: 18px; text-transform: uppercase; color: var(--black); text-decoration: none">Open full deck</a></div>
+</sc-if>
+</div>
+</div>
+</section>
+
+<section id="setup" style="padding-block: 96px; background: var(--surface-card)">
+<div style="width: 100%; max-width: 1428px; margin: 0 auto; padding-inline: 20px; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; align-items: flex-end; gap: 6px 40px; justify-content: space-between; flex-wrap: wrap">
+<div style="display: flex; flex-direction: column; gap: 16px; flex: 1 1 320px; min-width: 0">
+<p style="margin: 0; font-family: var(--font-mono); font-weight: 400; font-size: 14px; line-height: 19.6px; text-transform: uppercase; color: var(--text-secondary)">Your setup</p>
+<h2 style="margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(30px, 3.5vw, 40px); line-height: 1.15; color: var(--black); text-wrap: balance; max-width: 22ch">All without touching {{mainDomain}}.</h2>
+<p style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black); color: var(--text-secondary); max-width: 62ch; text-wrap: pretty">We never send from your main domain. We send from look-alike domains that point people to your real website. They look like you, and if one ever has a bad day, your company email is never at risk.</p>
+</div>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 6px">
+<span style="padding: 6px 10px; border-radius: 4px; background: var(--black); color: var(--white); font-family: var(--font-mono); font-size: 13px; line-height: 18px; overflow-wrap: anywhere">{{mainDomain}} · never used</span>
+<sc-for list="{{lookalikes}}" as="d" hint-placeholder-count="10">
+<span style="padding: 6px 10px; border-radius: 4px; background: var(--white); box-shadow: inset 0 0 0 1px rgb(242, 242, 242); font-family: var(--font-mono); font-size: 13px; line-height: 18px; overflow-wrap: anywhere">{{d}}</span>
+</sc-for>
+</div>
+<p style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black); max-width: 66ch; text-wrap: pretty">Three mailboxes under each domain, ten emails a day out of each one. The volume comes from the number of mailboxes, never from pushing one harder. Here is one example: 10 domains, 30 mailboxes, 300 emails a day. Yours grows to the volume you pick.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr)); gap: 6px">
+<sc-for list="{{grid}}" as="g" hint-placeholder-count="10">
+<div style="background: var(--white); border: 1px solid var(--border-subtle); border-radius: 12px; min-width: 0; padding: 16px; display: flex; flex-direction: column; gap: 12px">
+<div style="font-family: var(--font-mono); font-size: 13px; line-height: 18px; overflow-wrap: anywhere">{{g.domain}}</div>
+<div style="display: flex; flex-direction: column; gap: 6px; padding-top: 12px; border-top: 1px solid var(--border-subtle)">
+<sc-for list="{{g.boxes}}" as="b" hint-placeholder-count="3">
+<div style="display: flex; justify-content: space-between; gap: 8px; font-size: 12.1px; line-height: 18px; color: var(--text-secondary)"><span style="font-family: var(--font-mono); overflow-wrap: anywhere; min-width: 0">{{b}}</span><span style="font-family: var(--font-mono); white-space: nowrap">10/day</span></div>
+</sc-for>
+</div>
+</div>
+</sc-for>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 6px">
+<div style="background: var(--white); border: 1px solid var(--border-subtle); border-radius: 12px; min-width: 0; padding: 24px; display: flex; gap: 16px; align-items: flex-start"><span style="font-family: var(--font-mono); font-size: 14px; line-height: 24px; color: var(--accent)">01</span><p style="margin: 0; font-size: 16px; line-height: 24px; color: var(--black)">Fourteen days of warm-up. The mailboxes email each other before one real email goes out.</p></div>
+<div style="background: var(--white); border: 1px solid var(--border-subtle); border-radius: 12px; min-width: 0; padding: 24px; display: flex; gap: 16px; align-items: flex-start"><span style="font-family: var(--font-mono); font-size: 14px; line-height: 24px; color: var(--accent)">02</span><p style="margin: 0; font-size: 16px; line-height: 24px; color: var(--black)">Every address checked before it's sent to. Bounces get you flagged.</p></div>
+<div style="background: var(--white); border: 1px solid var(--border-subtle); border-radius: 12px; min-width: 0; padding: 24px; display: flex; gap: 16px; align-items: flex-start"><span style="font-family: var(--font-mono); font-size: 14px; line-height: 24px; color: var(--accent)">03</span><p style="margin: 0; font-size: 16px; line-height: 24px; color: var(--black)">Every mailbox capped. Bounce and reply rates checked every day.</p></div>
+<div style="background: var(--white); border: 1px solid var(--border-subtle); border-radius: 12px; min-width: 0; padding: 24px; display: flex; gap: 16px; align-items: flex-start"><span style="font-family: var(--font-mono); font-size: 14px; line-height: 24px; color: var(--accent)">04</span><p style="margin: 0; font-size: 16px; line-height: 24px; color: var(--black)">One sending tool on dedicated rotating IPs. We build it, warm it and run it.</p></div>
+<div style="background: var(--white); border: 1px solid var(--border-subtle); border-radius: 12px; min-width: 0; padding: 24px; display: flex; gap: 16px; align-items: flex-start"><span style="font-family: var(--font-mono); font-size: 14px; line-height: 24px; color: var(--accent)">05</span><p style="margin: 0; font-size: 16px; line-height: 24px; color: var(--black)">No pre-warmed inboxes from a reseller who doesn't know you. Every domain looks like {{company}}.</p></div>
+<div style="background: var(--white); border: 1px solid var(--border-subtle); border-radius: 12px; min-width: 0; padding: 24px; display: flex; gap: 16px; align-items: flex-start"><span style="font-family: var(--font-mono); font-size: 14px; line-height: 24px; color: var(--accent)">06</span><p style="margin: 0; font-size: 16px; line-height: 24px; color: var(--black)">It's yours. Domains, mailboxes, lists. If we ever stop, you keep a working system.</p></div>
+</div>
+</div>
+</section>
+
+<section id="timeline" style="min-height: 720px; display: flex; align-items: flex-end; background: linear-gradient(180deg, rgba(18, 41, 79, 0.45) 0%, rgba(18, 41, 79, 0.92) 100%), url(assets/banner-texture.jpg) 50% 50% / cover no-repeat; color: var(--white)">
+<div style="width: 100%; max-width: 1428px; margin: 0 auto; padding-inline: 20px; padding-block: 96px 40px; display: flex; flex-direction: column; gap: 48px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr)); gap: 6px; align-items: end">
+<div style="display: flex; flex-direction: column; gap: 16px; grid-column: span 2; min-width: 0">
+<p style="margin: 0; font-family: var(--font-mono); font-weight: 400; font-size: 14px; line-height: 19.6px; text-transform: uppercase; color: var(--text-secondary); color: var(--white)">Not wasted time</p>
+<h2 style="margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(36px, 5vw, 56px); line-height: 1.1; color: var(--black); text-wrap: balance; color: var(--white); max-width: 20ch">And the 14-day warm-up isn't wasted time.</h2>
+</div>
+<p style="margin: 0; font-size: 16px; line-height: 24px; color: var(--black); color: var(--white)">No retainer. We don't get paid to wait. But we work.</p>
+</div>
+<div style="overflow-x: auto; max-width: 100%; padding-bottom: 8px">
+<ol style="list-style: none; margin: 0; padding: 0; min-width: 820px; display: grid; grid-template-columns: 1fr 3.2fr 1fr 1.3fr; column-gap: 6px">
+<li style="display: flex; flex-direction: column; gap: 14px; min-width: 0">
+<div style="height: 4px; border-radius: 2px; background: var(--accent)"></div>
+<div style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: rgb(209, 209, 209)">DAY 1</div>
+<div style="font-family: var(--font-display); font-weight: 600; font-size: 20px; line-height: 26px; color: var(--white)">Kickoff</div>
+</li>
+<li style="display: flex; flex-direction: column; gap: 14px; min-width: 0">
+<div style="height: 4px; border-radius: 2px; background: rgba(255, 255, 255, 0.35)"></div>
+<div style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: rgb(209, 209, 209)">DAYS 1–14</div>
+<div style="font-family: var(--font-display); font-weight: 600; font-size: 20px; line-height: 26px; color: var(--white)">Setup and warm-up</div>
+<ul style="list-style: none; margin: 4px 0 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px">
+<li style="padding: 12px 14px; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 12px; font-size: 14px; line-height: 21px; color: var(--white)">Build and clean your lead list</li>
+<li style="padding: 12px 14px; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 12px; font-size: 14px; line-height: 21px; color: var(--white)">Check every address</li>
+<li style="padding: 12px 14px; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 12px; font-size: 14px; line-height: 21px; color: var(--white)">Write your emails</li>
+<li style="padding: 12px 14px; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 12px; font-size: 14px; line-height: 21px; color: var(--white)">Build your pitch deck and sales materials</li>
+<li style="padding: 12px 14px; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 12px; font-size: 14px; line-height: 21px; color: var(--white)">Set the sending schedule</li>
+<li style="padding: 12px 14px; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 12px; font-size: 14px; line-height: 21px; color: var(--white)">Prep your call notes</li>
+</ul>
+</li>
+<li style="display: flex; flex-direction: column; gap: 14px; min-width: 0">
+<div style="height: 4px; border-radius: 2px; background: var(--accent)"></div>
+<div style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: rgb(209, 209, 209)">DAY 15</div>
+<div style="font-family: var(--font-display); font-weight: 600; font-size: 20px; line-height: 26px; color: var(--white)">First emails</div>
+<div style="font-size: 14px; line-height: 21px; color: rgb(209, 209, 209)">Everything goes live at once.</div>
+</li>
+<li style="display: flex; flex-direction: column; gap: 14px; min-width: 0">
+<div style="height: 4px; border-radius: 2px; background: var(--white)"></div>
+<div style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: rgb(209, 209, 209)">NEXT 1–2 WEEKS</div>
+<div style="font-family: var(--font-display); font-weight: 600; font-size: 20px; line-height: 26px; color: var(--white)">First calls</div>
+</li>
+</ol>
+</div>
+</div>
+</section>
+
+<section style="padding-block: 96px; background: var(--white)">
+<div style="width: 100%; max-width: 1428px; margin: 0 auto; padding-inline: 20px; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; align-items: flex-end; gap: 6px 40px; justify-content: space-between; flex-wrap: wrap">
+<div style="display: flex; flex-direction: column; gap: 16px; flex: 1 1 320px; min-width: 0; align-items: center; text-align: center">
+<p style="margin: 0; font-family: var(--font-mono); font-weight: 400; font-size: 14px; line-height: 19.6px; text-transform: uppercase; color: var(--text-secondary)">Once we're live</p>
+<h2 style="margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(30px, 3.5vw, 40px); line-height: 1.15; color: var(--black); text-wrap: balance; max-width: 22ch">Everything before the call is on us.</h2>
+<p style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black); color: var(--text-secondary); max-width: 62ch; text-wrap: pretty">You walk in already knowing them. Discovery is done before the call.</p>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 6px">
+<div style="display: flex; flex-direction: column; gap: 16px; min-width: 0">
+<div style="height: 340px; border-radius: 12px; background: url(assets/approach-1.png) center / cover"></div>
+<div style="padding: 0 16px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 2px"><span style="font-family: var(--font-mono); font-size: 14px; line-height: 19.6px; color: var(--accent)">{{liveSteps.0.n}}</span><span style="margin: 0; font-size: 16px; line-height: 24px; color: var(--black)">{{liveSteps.0.t}}</span></div>
+<div style="display: flex; flex-direction: column; gap: 2px"><span style="font-family: var(--font-mono); font-size: 14px; line-height: 19.6px; color: var(--accent)">{{liveSteps.1.n}}</span><span style="margin: 0; font-size: 16px; line-height: 24px; color: var(--black)">{{liveSteps.1.t}}</span></div>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 16px; min-width: 0">
+<div style="height: 340px; border-radius: 12px; background: url(assets/approach-2.png) center / cover"></div>
+<div style="padding: 0 16px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 2px"><span style="font-family: var(--font-mono); font-size: 14px; line-height: 19.6px; color: var(--accent)">{{liveSteps.2.n}}</span><span style="margin: 0; font-size: 16px; line-height: 24px; color: var(--black)">{{liveSteps.2.t}}</span></div>
+<div style="display: flex; flex-direction: column; gap: 2px"><span style="font-family: var(--font-mono); font-size: 14px; line-height: 19.6px; color: var(--accent)">{{liveSteps.3.n}}</span><span style="margin: 0; font-size: 16px; line-height: 24px; color: var(--black)">{{liveSteps.3.t}}</span></div>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 16px; min-width: 0">
+<div style="height: 340px; border-radius: 12px; background: url(assets/approach-3.png) center / cover"></div>
+<div style="padding: 0 16px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 2px"><span style="font-family: var(--font-mono); font-size: 14px; line-height: 19.6px; color: var(--accent)">{{liveSteps.4.n}}</span><span style="margin: 0; font-size: 16px; line-height: 24px; color: var(--black)">{{liveSteps.4.t}}</span></div>
+<div style="display: flex; flex-direction: column; gap: 2px"><span style="font-family: var(--font-mono); font-size: 14px; line-height: 19.6px; color: var(--accent)">{{liveSteps.5.n}}</span><span style="margin: 0; font-size: 16px; line-height: 24px; color: var(--black)">{{liveSteps.5.t}}</span></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section style="padding-block: 96px; background: var(--surface-card)">
+<div style="width: 100%; max-width: 1428px; margin: 0 auto; padding-inline: 20px; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; align-items: flex-end; gap: 6px 40px; justify-content: space-between; flex-wrap: wrap">
+<div style="display: flex; flex-direction: column; gap: 16px; flex: 1 1 320px; min-width: 0">
+<p style="margin: 0; font-family: var(--font-mono); font-weight: 400; font-size: 14px; line-height: 19.6px; text-transform: uppercase; color: var(--text-secondary)">Why volume matters</p>
+<h2 style="margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(30px, 3.5vw, 40px); line-height: 1.15; color: var(--black); text-wrap: balance; max-width: 22ch">One inbox can't do this. A hundred can.</h2>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); gap: 6px">
+<div style="background: var(--white); border: 1px solid var(--border-subtle); border-radius: 12px; min-width: 0; padding: 16px; min-height: 340px; display: flex; flex-direction: column; justify-content: space-between; gap: 32px">
+<img src="assets/3d-icon-5.png" alt="" style="width: 100px; height: 100px; border-radius: 12px; display: block">
+<div style="display: flex; flex-direction: column; gap: 4px; max-width: 520px"><span style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">ONE MAILBOX</span><p style="margin: 0; font-size: 16px; line-height: 24px; color: var(--black)">About 10 safe emails a day. Push harder and you land in spam. 10 a day × 22 send days is about 200 people a month. At 1 interested reply per 250 to 300 emails, that's maybe one interested person a month.</p></div>
+</div>
+<div style="background: var(--white); border: 1px solid var(--border-subtle); border-radius: 12px; min-width: 0; padding: 16px; min-height: 340px; display: flex; flex-direction: column; justify-content: space-between; gap: 32px; border-color: var(--accent)">
+<img src="assets/3d-icon-6.png" alt="" style="width: 100px; height: 100px; border-radius: 12px; display: block">
+<div style="display: flex; flex-direction: column; gap: 4px; max-width: 520px"><span style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary); color: var(--accent)">100 MAILBOXES</span><p style="margin: 0; font-size: 16px; line-height: 24px; color: var(--black)">Every mailbox is like one rep sending 10 safe emails a day. 100 mailboxes is 1,000 emails a day, about 22,000 a month. Same safe sending, just more mailboxes. Want double? Double the mailboxes.</p></div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="calculator" style="padding-block: 96px; background: var(--white)">
+<div style="width: 100%; max-width: 1428px; margin: 0 auto; padding-inline: 20px; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; align-items: flex-end; gap: 6px 40px; justify-content: space-between; flex-wrap: wrap">
+<div style="display: flex; flex-direction: column; gap: 16px; flex: 1 1 320px; min-width: 0">
+<p style="margin: 0; font-family: var(--font-mono); font-weight: 400; font-size: 14px; line-height: 19.6px; text-transform: uppercase; color: var(--text-secondary)">What to expect</p>
+<h2 style="margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(30px, 3.5vw, 40px); line-height: 1.15; color: var(--black); text-wrap: balance; max-width: 22ch">Plug in your own numbers.</h2>
+<p style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black); color: var(--text-secondary); max-width: 62ch; text-wrap: pretty">Four numbers you already know. Nothing you type here is sent anywhere.</p>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(380px, 100%), 1fr)); gap: 6px">
+<div style="background: var(--white); border: 1px solid var(--border-subtle); border-radius: 12px; min-width: 0; padding: 24px; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<div style="margin: 0; font-size: 16px; line-height: 24px; color: var(--black)">Emails a day</div>
+<div style="display: flex; flex-wrap: wrap; gap: 6px">
+<sc-for list="{{dayOptions}}" as="o" hint-placeholder-count="4">
+<button type="button" aria-pressed="{{o.pressed}}" onClick="{{o.pick}}" style="padding: 12px 24px; border-radius: 12px; font-family: var(--font-sans); font-weight: 500; font-size: 14px; line-height: 21px; font-variant-numeric: tabular-nums; cursor: pointer; transition: opacity 200ms, background-color 200ms; {{o.pillStyle}}">{{o.label}}</button>
+</sc-for>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<label for="cfs-value" style="display: flex; justify-content: space-between; gap: 12px; margin: 0; font-size: 16px; line-height: 24px; color: var(--black)"><span>What a customer pays you a year</span><span style="font-family: var(--font-mono); font-size: 14px; white-space: nowrap">{{valueLabel}}</span></label>
+<input id="cfs-value" type="range" min="500" max="50000" step="500" value="{{custValue}}" onChange="{{onValue}}" style="width: 100%; height: 28px; margin: 0; accent-color: var(--accent)">
+<div style="display: flex; justify-content: space-between; gap: 8px; font-size: 12.1px; line-height: 18px; color: var(--text-secondary)"><span>$500 a year</span><span>$50,000 a year</span></div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<label for="cfs-years" style="display: flex; justify-content: space-between; gap: 12px; margin: 0; font-size: 16px; line-height: 24px; color: var(--black)"><span>How many years the average customer stays</span><span style="font-family: var(--font-mono); font-size: 14px; white-space: nowrap">{{yearsLabel}}</span></label>
+<input id="cfs-years" type="range" min="1" max="10" step="1" value="{{years}}" onChange="{{onYears}}" style="width: 100%; height: 28px; margin: 0; accent-color: var(--accent)">
+<div style="display: flex; justify-content: space-between; gap: 8px; font-size: 12.1px; line-height: 18px; color: var(--text-secondary)"><span>1 year</span><span>10 years</span></div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<label for="cfs-close" style="display: flex; justify-content: space-between; gap: 12px; margin: 0; font-size: 16px; line-height: 24px; color: var(--black)"><span>Out of 10 calls, how many become customers</span><span style="font-family: var(--font-mono); font-size: 14px; white-space: nowrap">{{closeRate}}</span></label>
+<input id="cfs-close" type="range" min="1" max="10" step="1" value="{{closeRate}}" onChange="{{onClose}}" style="width: 100%; height: 28px; margin: 0; accent-color: var(--accent)">
+</div>
+<div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding-top: 20px; border-top: 1px solid var(--border-subtle)"><span style="font-size: 14px; line-height: 21px; color: var(--text-secondary)">Your tech fee a month</span><strong style="font-family: var(--font-display); font-weight: 600; font-size: 32px; line-height: 38.4px; font-variant-numeric: tabular-nums">{{feeLabel}}</strong></div>
+</div>
+<div style="min-width: 0; padding: 24px; border-radius: 12px; background: linear-gradient(180deg, rgba(18, 41, 79, 0.75) 0%, rgba(18, 41, 79, 0.96) 100%), url(assets/texture-3.jpg) 50% 50% / cover no-repeat; color: var(--white); display: flex; flex-direction: column">
+<sc-for list="{{calcRows}}" as="r" hint-placeholder-count="5">
+<div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 14px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2)"><span style="font-size: 14px; line-height: 21px; color: rgb(209, 209, 209)">{{r.label}}</span><span style="font-family: var(--font-mono); font-size: 20px; line-height: 26px; color: var(--white); white-space: nowrap">{{r.value}}</span></div>
+</sc-for>
+<div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 14px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2)"><span style="font-size: 14px; line-height: 21px; color: rgb(209, 209, 209)">First-year revenue from those deals</span><span style="font-family: var(--font-mono); font-size: 20px; line-height: 26px; color: var(--white); white-space: nowrap">{{yearRevenueLabel}}</span></div>
+<div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 12px; padding-top: 32px; margin-top: auto"><span style="font-size: 14px; line-height: 21px; color: rgb(209, 209, 209); max-width: 22ch">What one month of deals is worth over the years they stay</span><span style="font-family: var(--font-display); font-size: clamp(36px, 4vw, 56px); line-height: 1.1; font-weight: 600; font-variant-numeric: tabular-nums; color: var(--white)">{{revenueLabel}}</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section style="padding-block: 96px; background: var(--surface-card)">
+<div style="width: 100%; max-width: 1428px; margin: 0 auto; padding-inline: 20px; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; align-items: flex-end; gap: 6px 40px; justify-content: space-between; flex-wrap: wrap">
+<div style="display: flex; flex-direction: column; gap: 16px; flex: 1 1 320px; min-width: 0">
+<p style="margin: 0; font-family: var(--font-mono); font-weight: 400; font-size: 14px; line-height: 19.6px; text-transform: uppercase; color: var(--text-secondary)">Doing it yourself</p>
+<h2 style="margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(30px, 3.5vw, 40px); line-height: 1.15; color: var(--black); text-wrap: balance; max-width: 22ch">What it costs to run this alone.</h2>
+<p style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black); color: var(--text-secondary); max-width: 62ch; text-wrap: pretty">Over a thousand dollars a month across six tools, before anyone picks up a phone.</p>
+</div>
+</div>
+<div style="background: var(--white); border: 1px solid var(--border-subtle); border-radius: 12px; min-width: 0; overflow-x: auto; max-width: 100%">
+<table style="width: 100%; min-width: 680px; border-collapse: collapse">
+<thead><tr><th style="text-align: left; padding: 12px 16px; background: var(--surface-card); border-bottom: 1px solid var(--border-subtle); font-weight: 400; font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">The piece</th><th style="text-align: left; padding: 12px 16px; background: var(--surface-card); border-bottom: 1px solid var(--border-subtle); font-weight: 400; font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">Do it yourself</th><th style="text-align: left; padding: 12px 16px; background: var(--surface-card); border-bottom: 1px solid var(--border-subtle); font-weight: 400; font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">With us</th></tr></thead>
+<tbody>
+<tr><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; font-weight: 500">Lead data</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; color: var(--text-secondary)">$149 to $500 a month</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; font-family: var(--font-mono); font-size: 13px">In the tech fee</td></tr>
+<tr><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; font-weight: 500">Email checking</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; color: var(--text-secondary)">$50 to $200 a month</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; font-family: var(--font-mono); font-size: 13px">In the tech fee</td></tr>
+<tr><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; font-weight: 500">A sending tool</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; color: var(--text-secondary)">$97 a month</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; font-family: var(--font-mono); font-size: 13px">In the tech fee</td></tr>
+<tr><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; font-weight: 500">Mailboxes</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; color: var(--text-secondary)">$250 a month</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; font-family: var(--font-mono); font-size: 13px">In the tech fee</td></tr>
+<tr><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; font-weight: 500">Domains</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; color: var(--text-secondary)">$150 a year and up</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; font-family: var(--font-mono); font-size: 13px">In the tech fee</td></tr>
+<tr><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; font-weight: 500">Someone to write the emails</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; color: var(--text-secondary)">$250 a month, or your own time</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; font-family: var(--font-mono); font-size: 13px">Included</td></tr>
+<tr><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; font-weight: 500">Learning it</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; color: var(--text-secondary)">Forty hours</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; font-family: var(--font-mono); font-size: 13px">Zero</td></tr>
+<tr><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; font-weight: 500">Answering replies, calling, booking, reminders, chasing no-shows</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; color: var(--text-secondary)">Your time, or a rep at $5,000 to $7,000 a month</td><td style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; font-size: 14px; line-height: 21px; font-family: var(--font-mono); font-size: 13px">Paid per call that showed</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+
+<section style="padding-block: 96px; background: var(--white)">
+<div style="width: 100%; max-width: 1428px; margin: 0 auto; padding-inline: 20px; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; align-items: flex-end; gap: 6px 40px; justify-content: space-between; flex-wrap: wrap">
+<div style="display: flex; flex-direction: column; gap: 16px; flex: 1 1 320px; min-width: 0">
+<p style="margin: 0; font-family: var(--font-mono); font-weight: 400; font-size: 14px; line-height: 19.6px; text-transform: uppercase; color: var(--text-secondary)">Real campaigns</p>
+<h2 style="margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(30px, 3.5vw, 40px); line-height: 1.15; color: var(--black); text-wrap: balance; max-width: 22ch">Here's what that looks like on real campaigns.</h2>
+<p style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black); color: var(--text-secondary); max-width: 62ch; text-wrap: pretty">Sent, replied, booked. Every campaign tracked the same way, every week.</p>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr)); gap: 6px">
+<sc-for list="{{cases}}" as="c" hint-placeholder-count="3">
+<div style="background: var(--surface-card); border-radius: 12px; min-width: 0; display: flex; flex-direction: column; overflow: hidden">
+<div style="aspect-ratio: 3.4 / 1; background: var(--white); margin: 6px 6px 0; border-radius: 8px; display: flex; align-items: center; justify-content: center; overflow: hidden">
+<img src="{{c.dash}}" alt="{{c.name}} campaign dashboard" style="width: 100%; height: 100%; object-fit: contain; display: block">
+</div>
+<div style="display: flex; flex-direction: column; gap: 12px; padding: 24px 16px 8px; flex-grow: 1">
+<div style="display: flex; align-items: center; gap: 12px">
+<img src="{{c.logo}}" alt="{{c.name}} logo" style="height: 24px; width: auto; display: block">
+<h3 style="margin: 0; font-family: var(--font-display); font-size: 20px; line-height: 26px; font-weight: 600">{{c.name}}</h3>
+</div>
+<p style="margin: 0; font-size: 16px; line-height: 24px; color: var(--text-secondary)">{{c.text}}</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin: 8px 16px 16px; padding-top: 16px; border-top: 1px solid var(--neutral-400)">
+<div style="display: flex; flex-direction: column; gap: 2px; min-width: 0"><span style="font-family: var(--font-display); font-weight: 600; font-size: 32px; line-height: 38.4px; font-variant-numeric: tabular-nums">{{c.sent}}</span><span style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">SENT</span></div>
+<div style="display: flex; flex-direction: column; gap: 2px; min-width: 0"><span style="font-family: var(--font-display); font-weight: 600; font-size: 32px; line-height: 38.4px; font-variant-numeric: tabular-nums">{{c.replied}}</span><span style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">REPLIED</span></div>
+<div style="display: flex; flex-direction: column; gap: 2px; min-width: 0"><span style="font-family: var(--font-display); font-weight: 600; font-size: 32px; line-height: 38.4px; font-variant-numeric: tabular-nums; color: var(--accent)">{{c.booked}}</span><span style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">BOOKED</span></div>
+</div>
+</div>
+</sc-for>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<sc-for list="{{moreCases}}" as="m" hint-placeholder-count="4">
+<div style="background: var(--white); border: 1px solid var(--border-subtle); border-radius: 12px; min-width: 0; padding: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr)); gap: 16px 24px; align-items: center">
+<img src="{{m.dash}}" alt="Campaign dashboard" style="width: 100%; height: auto; display: block; border-radius: 8px">
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px">
+<div style="display: flex; flex-direction: column; gap: 2px; min-width: 0"><span style="font-family: var(--font-display); font-weight: 600; font-size: 32px; line-height: 38.4px; font-variant-numeric: tabular-nums">{{m.contacted}}</span><span style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">CONTACTED</span></div>
+<div style="display: flex; flex-direction: column; gap: 2px; min-width: 0"><span style="font-family: var(--font-display); font-weight: 600; font-size: 32px; line-height: 38.4px; font-variant-numeric: tabular-nums">{{m.replied}}</span><span style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">REPLIED</span></div>
+<div style="display: flex; flex-direction: column; gap: 2px; min-width: 0"><span style="font-family: var(--font-display); font-weight: 600; font-size: 32px; line-height: 38.4px; font-variant-numeric: tabular-nums; color: var(--accent)">{{m.booked}}</span><span style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">BOOKED</span></div>
+</div>
+</div>
+</sc-for>
+</div>
+</div>
+</section>
+
+<section id="pricing" style="padding-block: 96px; background: var(--surface-card)">
+<div style="width: 100%; max-width: 1428px; margin: 0 auto; padding-inline: 20px; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; align-items: flex-end; gap: 6px 40px; justify-content: space-between; flex-wrap: wrap">
+<div style="display: flex; flex-direction: column; gap: 16px; flex: 1 1 320px; min-width: 0">
+<p style="margin: 0; font-family: var(--font-mono); font-weight: 400; font-size: 14px; line-height: 19.6px; text-transform: uppercase; color: var(--text-secondary)">How much it costs</p>
+<h2 style="margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(30px, 3.5vw, 40px); line-height: 1.15; color: var(--black); text-wrap: balance; max-width: 22ch">Two numbers. That's all.</h2>
+<p style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black); color: var(--text-secondary); max-width: 62ch; text-wrap: pretty">A monthly tech fee, sized to how many emails a day you send. And a fee for every call that shows up. Nothing is marked up. You'd pay this anyway if you ran it yourself.</p>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); gap: 6px">
+<sc-for list="{{tiers}}" as="t" hint-placeholder-count="4">
+<div style="padding: 24px; background: var(--white); border-radius: 12px; min-width: 0; display: flex; flex-direction: column; gap: 24px; {{t.cardStyle}}">
+<div><div style="font-family: var(--font-display); font-size: 40px; font-weight: 600; line-height: 46px; font-variant-numeric: tabular-nums">{{t.day}}</div><div style="font-family: var(--font-mono); font-size: 12px; line-height: 16.8px; text-transform: uppercase; color: var(--text-secondary)">EMAILS A DAY</div></div>
+<div><div style="font-size: 14px; line-height: 21px; color: var(--text-secondary)">Tech fee a month</div><div style="font-family: var(--font-display); font-size: 32px; line-height: 38.4px; font-weight: 600; font-variant-numeric: tabular-nums">{{t.fee}}</div></div>
+<div style="display: flex; flex-direction: column; gap: 8px; padding-top: 16px; border-top: 1px solid var(--border-subtle)">
+<div style="display: flex; justify-content: space-between; gap: 8px; font-size: 14px; line-height: 21px"><span style="color: var(--text-secondary)">Domains</span><span style="font-family: var(--font-mono)">{{t.domains}}</span></div>
+<div style="display: flex; justify-content: space-between; gap: 8px; font-size: 14px; line-height: 21px"><span style="color: var(--text-secondary)">Mailboxes</span><span style="font-family: var(--font-mono)">{{t.boxes}}</span></div>
+<div style="display: flex; justify-content: space-between; gap: 8px; font-size: 14px; line-height: 21px"><span style="color: var(--text-secondary)">Emails a month</span><span style="font-family: var(--font-mono)">{{t.month}}</span></div>
+<div style="display: flex; justify-content: space-between; gap: 8px; font-size: 14px; line-height: 21px"><span style="color: var(--text-secondary)">Calls booked a month</span><span style="font-family: var(--font-mono)">{{t.calls}}</span></div>
+</div>
+</div>
+</sc-for>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); gap: 6px">
+<div style="background: var(--white); border: 1px solid var(--border-subtle); border-radius: 12px; min-width: 0; padding: 24px; display: flex; flex-direction: column; gap: 16px">
+<h3 style="margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(24px, 2.5vw, 32px); line-height: 1.2; color: var(--black); font-size: 24px; line-height: 30px">A fee for every call that shows up.</h3>
+<p style="margin: 0; font-size: 16px; line-height: 24px; color: var(--text-secondary)">We agree the number on our call. It depends on who you sell to and what a customer is worth to you. You pay it for each call that showed, and nothing for one that didn't. You get 24 hours to flag anything before it's charged.</p>
+</div>
+<div style="background: var(--white); border: 1px solid var(--border-subtle); border-radius: 12px; min-width: 0; padding: 24px; display: flex; flex-direction: column; gap: 16px">
+<h3 style="margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(24px, 2.5vw, 32px); line-height: 1.2; color: var(--black); font-size: 24px; line-height: 30px">And it's yours.</h3>
+<p style="margin: 0; font-size: 16px; line-height: 24px; color: var(--text-secondary)">The domains, the mailboxes and the lists belong to you. If we don't perform and you let us go, you keep all of it. No setup fee, no retainer, no extras. Month to month.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section style="padding-block: 96px; background: var(--white)">
+<div style="width: 100%; max-width: 1428px; margin: 0 auto; padding-inline: 20px; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; align-items: flex-end; gap: 6px 40px; justify-content: space-between; flex-wrap: wrap">
+<div style="display: flex; flex-direction: column; gap: 16px; flex: 1 1 320px; min-width: 0">
+<p style="margin: 0; font-family: var(--font-mono); font-weight: 400; font-size: 14px; line-height: 19.6px; text-transform: uppercase; color: var(--text-secondary)">All you do</p>
+<h2 style="margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(30px, 3.5vw, 40px); line-height: 1.15; color: var(--black); text-wrap: balance; max-width: 22ch">Three things on your side.</h2>
+</div>
+</div>
+<ol style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 6px">
+<li style="background: var(--surface-card); border-radius: 12px; min-width: 0; padding: 16px; min-height: 280px; display: flex; flex-direction: column; justify-content: space-between; gap: 32px"><div style="font-family: var(--font-display); font-weight: 600; font-size: 56px; line-height: 61.6px; color: var(--accent); font-variant-numeric: tabular-nums">1</div><p style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black); max-width: 32ch">Approve who we go after. We already drafted it above.</p></li>
+<li style="background: var(--surface-card); border-radius: 12px; min-width: 0; padding: 16px; min-height: 280px; display: flex; flex-direction: column; justify-content: space-between; gap: 32px"><div style="font-family: var(--font-display); font-weight: 600; font-size: 56px; line-height: 61.6px; color: var(--accent); font-variant-numeric: tabular-nums">2</div><p style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black); max-width: 32ch">Give us your calendar.</p></li>
+<li style="background: var(--surface-card); border-radius: 12px; min-width: 0; padding: 16px; min-height: 280px; display: flex; flex-direction: column; justify-content: space-between; gap: 32px"><div style="font-family: var(--font-display); font-weight: 600; font-size: 56px; line-height: 61.6px; color: var(--accent); font-variant-numeric: tabular-nums">3</div><p style="margin: 0; font-size: 18px; line-height: 27px; color: var(--black); max-width: 32ch">Show up to the calls.</p></li>
+</ol>
+</div>
+</section>
+
+<section style="padding-block: 96px; background: var(--surface-card)">
+<div style="width: 100%; max-width: 1428px; margin: 0 auto; padding-inline: 20px; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; align-items: flex-end; gap: 6px 40px; justify-content: space-between; flex-wrap: wrap">
+<div style="display: flex; flex-direction: column; gap: 16px; flex: 1 1 320px; min-width: 0; align-items: center; text-align: center">
+<p style="margin: 0; font-family: var(--font-mono); font-weight: 400; font-size: 14px; line-height: 19.6px; text-transform: uppercase; color: var(--text-secondary)">Questions</p>
+<h2 style="margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(30px, 3.5vw, 40px); line-height: 1.15; color: var(--black); text-wrap: balance; max-width: 22ch">Before you book, here's what people ask.</h2>
+</div>
+</div>
+<div style="width: 100%; max-width: 896px; margin: 0 auto; background: var(--white); border: 1px solid var(--border-subtle); border-radius: 12px; min-width: 0; padding: 24px">
+<sc-for list="{{faq}}" as="f" hint-placeholder-count="7">
+<div style="border-bottom: 1px solid var(--border-subtle); padding: 16px 0">
+<div onClick="{{f.toggle}}" style="display: flex; justify-content: space-between; align-items: center; gap: 16px; cursor: pointer">
+<span style="margin: 0; font-size: 16px; line-height: 24px; color: var(--black); font-weight: 500">{{f.q}}</span>
+<x-import component-from-global-scope="RoundhouseLabsDesignSystem_a49520.Component5" variant="toggle" open="{{f.open}}" style="box-shadow: inset 0 0 0 1px rgb(242, 242, 242); flex-shrink: 0" hint-size="48px,48px"></x-import>
+</div>
+<sc-if value="{{f.open}}" hint-placeholder-val="{{ true }}">
+<p style="margin: 0; font-size: 16px; line-height: 24px; color: var(--text-secondary); margin-top: 8px; max-width: 700px">{{f.a}}</p>
+</sc-if>
+</div>
+</sc-for>
+</div>
+</div>
+</section>
+
+<section id="book" style="min-height: 720px; display: flex; align-items: flex-end; background: linear-gradient(180deg, rgba(18, 41, 79, 0) 0%, rgba(18, 41, 79, 0.85) 100%), url(assets/hero-texture.jpg) 50% 50% / cover no-repeat">
+<div style="width: 100%; max-width: 1428px; margin: 0 auto; padding-inline: 20px; padding-block: 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr)); gap: 6px; align-items: end">
+<div style="display: flex; flex-direction: column; gap: 16px; grid-column: span 2; min-width: 0">
+<h2 style="margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(36px, 5vw, 56px); line-height: 1.1; color: var(--black); text-wrap: balance; color: var(--white); max-width: 18ch">Your campaign is ready. Let's walk through it.</h2>
+</div>
+<div style="display: flex; flex-direction: column; gap: 16px">
+<p style="margin: 0; font-size: 16px; line-height: 24px; color: var(--black); color: var(--white)">On the call we go through your buyers, your leads and your emails, size your first campaign, and you decide. Do it yourself with what's on this page, or do it with us and pay per call.</p>
+<div style="display: flex; gap: 8px; flex-wrap: wrap"><x-import component-from-global-scope="RoundhouseLabsDesignSystem_a49520.Component1" href="{{bookingLink}}" hint-size="120px,45px">Book a call</x-import></div>
+</div>
+</div>
+</section>
+
+<footer style="padding: 40px 20px">
+<div style="max-width: 1428px; margin: 0 auto; border-radius: 12px; background: var(--surface-card); padding: 40px; display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; gap: 24px; flex-wrap: wrap; justify-content: space-between; align-items: flex-start">
+<img src="assets/roundhouse-logo.png" alt="{{company}}" style="height: 32px; display: block">
+<x-import component-from-global-scope="RoundhouseLabsDesignSystem_a49520.Component1" href="{{bookingLink}}" variant="secondary" style="box-shadow: inset 0 0 0 1px rgb(242, 242, 242)" hint-size="120px,45px">Book a call</x-import>
+</div>
+<div style="border-top: 1px solid var(--border-card); padding-top: 20px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-size: 12.1px; line-height: 18px; color: var(--text-secondary)">
+<span>Prepared for {{company}} by Cashflow State</span>
+<a href="https://cashflowstate.ai" style="color: var(--text-secondary)">cashflowstate.ai</a>
+</div>
+</div>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"company":{"editor":"text","default":"Roundhouse","section":"Client"},"icp":{"editor":"text","default":"architecture firms","section":"Client"},"mainDomain":{"editor":"text","default":"roundhouselabs.com","section":"Client"},"deckCoverUrl":{"editor":"text","default":"","section":"Client"},"deckLink":{"editor":"text","default":"deck.html","section":"Links"},"bookingLink":{"editor":"text","default":"https://calendly.com/cashflowstate","section":"Links"},"$preview":{"width":1440,"height":8000}}'>
+class Component extends DCLogic {
+
+  /* ============================================================
+     CLIENT DATA: fill this in for each client.
+     Every value in [brackets] is a blank to replace.
+     The short fields (company, ideal customer, domain, links,
+     colors, fonts) are in the Tweaks panel instead.
+     ============================================================ */
+  client() {
+    return {
+      "icpSummary": "Roundhouse sells to US architecture firms with 50 to 500 people that have many jobs in construction at once, most of them run by builders on Procore. Their teams answer every RFI and submittal, but the record sits in each builder's system, one login per job, and nobody at the firm can see it all in one place. Roundhouse gives the firm's leaders one list of every open RFI and submittal across all their jobs, without changing how their team works.",
+      "insights": [
+        {
+          "label": "Job titles",
+          "value": "Principal, President, CEO, Managing Partner, Director of Operations, Studio Director"
+        },
+        {
+          "label": "Company type",
+          "value": "US architecture firms doing healthcare, education, science, civic and commercial buildings, where the builder runs the job on Procore"
+        },
+        {
+          "label": "Company size",
+          "value": "50 to 500 employees. About 1,800 firms and 12,500 leaders fit"
+        },
+        {
+          "label": "Where",
+          "value": "United States"
+        },
+        {
+          "label": "What they care about",
+          "value": "“We always seem to lose money in the CA phase.” They can't see what's waiting on the firm across every job until the fee has already run dry."
+        },
+        {
+          "label": "Why they would say yes",
+          "value": "One list of every open RFI and submittal across all their builders' jobs, for each PM and for the whole firm. Their PMs change nothing, and they can try it on their own busiest jobs first."
+        }
+      ],
+      "leads": [
+        {
+          "name": "Robert Halverson",
+          "title": "President & Principal",
+          "company": "Smallwood",
+          "email": "rhalverson@smallwood-us.com",
+          "phone": "+1 404 614 5055",
+          "location": "Atlanta, GA"
+        },
+        {
+          "name": "John Larsen",
+          "title": "President & CEO",
+          "company": "Ci Design",
+          "email": "jlarsen@ci-designinc.com",
+          "phone": "+1 443 668 6671",
+          "location": "Baltimore, MD"
+        },
+        {
+          "name": "Luke Leising",
+          "title": "President & Founder",
+          "company": "Guidon",
+          "email": "luke@guidondesign.com",
+          "phone": "+1 317 409 7545",
+          "location": "Indianapolis, IN"
+        },
+        {
+          "name": "John Clark",
+          "title": "Founding Partner",
+          "company": "Cordogan Clark",
+          "email": "jclark@cordoganclark.com",
+          "phone": "+1 312 286 9431",
+          "location": "Chicago, IL"
+        },
+        {
+          "name": "Erica Larson",
+          "title": "President",
+          "company": "Pope Design Group",
+          "email": "elarson@popedesign.com",
+          "phone": "+1 651 253 8670",
+          "location": "St. Paul, MN"
+        },
+        {
+          "name": "Robert Atkins",
+          "title": "President",
+          "company": "Kingscott",
+          "email": "ratkins@kingscott.com",
+          "phone": "+1 269 207 6907",
+          "location": "Kalamazoo, MI"
+        },
+        {
+          "name": "Brian Solywoda",
+          "title": "CEO",
+          "company": "Kaestle Boos",
+          "email": "bsolywoda@kba-architects.com",
+          "phone": "+1 860 966 9369",
+          "location": "New Britain, CT"
+        },
+        {
+          "name": "Brian Crichton",
+          "title": "President & CEO",
+          "company": "CMBA Architects",
+          "email": "crichton.b@cmbaarchitects.com",
+          "phone": "+1 712 898 9458",
+          "location": "Sioux City, IA"
+        },
+        {
+          "name": "Ian Griffiths",
+          "title": "President",
+          "company": "Berners Schober",
+          "email": "igriffiths@bsagb.com",
+          "phone": "+1 920 680 0516",
+          "location": "Green Bay, WI"
+        },
+        {
+          "name": "Gary Todd",
+          "title": "President",
+          "company": "Todd & Associates",
+          "email": "gtodd@toddassoc.com",
+          "phone": "+1 602 373 1237",
+          "location": "Phoenix, AZ"
+        }
+      ],
+      "sender": "tim@getroundhouselabs.com",
+      "email": {
+        "subject": "Open RFIs",
+        "body": "Hi Rob,\n\nSaw Kane Realty credit Smallwood with a smooth delivery on The Eastern. Guessing each builder on your jobs still runs its own system.\n\nWe put every open RFI and submittal on one list. Your PMs change nothing.\n\nTwo principals built it across 639 of their own projects.\n\nTry it on your busiest jobs. Cancel before day 30 and you owe nothing.\n\nWorth a look?\n\nTim\nRoundhouse"
+      },
+      "lookalikes": [
+        "getroundhouselabs.com",
+        "tryroundhouselabs.com",
+        "hiroundhouselabs.com",
+        "useroundhouselabs.com",
+        "joinroundhouselabs.com",
+        "meetroundhouselabs.com",
+        "goroundhouselabs.com",
+        "withroundhouselabs.com",
+        "teamroundhouselabs.com",
+        "helloroundhouselabs.com"
+      ],
+      "senders": [
+        "tim",
+        "craig",
+        "stuart"
+      ],
+      "clientFaq": [
+        {
+          "q": "Architecture is a small market. Won't you burn through it?",
+          "a": "About 1,800 US architecture firms fit your size, with about 12,500 leaders inside them. So we pace the sending, test offers on part of the list first, and take Praxis3 and any firm already talking to you off the list before anything goes out."
+        },
+        {
+          "q": "Will the emails sound like they know CA?",
+          "a": "Yes. They use the words architects use: RFIs, submittals, PMs, the builder. No made-up terms, and the proof is honest: two principals built it on their own projects."
+        },
+        {
+          "q": "Who takes the calls?",
+          "a": "You do, or whoever runs your demos. Before each call, the person who booked gets a short deck about Roundhouse, so they show up knowing what it does."
+        }
+      ]
+    };
+  }
+  /* ===================== end of client data ==================== */
+
+  constructor(props) {
+    super(props);
+    this.state = { step: 0, anim: false, perDay: 1000, value: 15000, close: 2, years: 3, faqOpen: 0 };
+  }
+
+  deckBox = React.createRef();
+  deckFrame = React.createRef();
+
+  startDeckScroll() {
+    let pos = 0, hold = 0, last = 0;
+    const tick = (t) => {
+      this.deckRaf = requestAnimationFrame(tick);
+      const box = this.deckBox.current, fr = this.deckFrame.current;
+      if (!box || !fr) return;
+      const s = box.clientWidth / 1280;
+      if (s > 0) { fr.style.transform = 'scale(' + s + ')'; fr.style.height = (box.clientHeight / s) + 'px'; }
+      const dt = last ? Math.min(t - last, 50) : 16; last = t;
+      let doc; try { doc = fr.contentDocument && fr.contentDocument.scrollingElement; } catch (e) { return; }
+      if (!doc || this.reduce) return;
+      if (this.deckHover) { pos = doc.scrollTop; return; }
+      if (hold > 0) { hold -= dt; return; }
+      const max = doc.scrollHeight - doc.clientHeight;
+      if (max <= 0) return;
+      if (pos >= max) { pos = 0; doc.scrollTop = 0; hold = 1500; return; }
+      pos = Math.min(max, pos + dt * 0.09);
+      doc.scrollTop = pos;
+      if (pos >= max) hold = 2500;
+    };
+    this.deckRaf = requestAnimationFrame(tick);
+  }
+
+  componentDidMount() {
+    this.startDeckScroll();
+    this.reduce = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+    this.timer = setInterval(() => {
+      if (this.reduce) {
+        this.setState((s) => ({ step: (s.step + 1) % 4, anim: false }));
+        return;
+      }
+      this.setState((s) => ({ step: s.step + 1, anim: true }), () => {
+        if (this.state.step >= 4) {
+          this.reset = setTimeout(() => this.setState({ step: 0, anim: false }), 650);
+        }
+      });
+    }, 2200);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timer);
+    clearTimeout(this.reset);
+    cancelAnimationFrame(this.deckRaf);
+  }
+
+  renderVals() {
+    const p = this.props;
+    const s = this.state;
+    const C = this.client();
+    const fmt = (n) => Number(n).toLocaleString('en-US');
+    const ink = p.ink ?? '#000000';
+    const brand = p.brand ?? '#3A6ABB';
+    const brandInk = p.brandInk ?? '#FFFFFF';
+
+    const perMonth = s.perDay * 22;
+    const replies = Math.floor(perMonth * 0.025);
+    const interested = Math.floor(replies * 0.15);
+    const calls = Math.floor(interested * 0.5);
+    const deals = Math.floor(calls * s.close / 10);
+    const fee = s.perDay / 1000 * 800;
+
+    const tierData = [
+      { perDay: 1000, domains: 34, boxes: 100 },
+      { perDay: 2000, domains: 67, boxes: 200 },
+      { perDay: 5000, domains: 167, boxes: 500 },
+      { perDay: 10000, domains: 334, boxes: 1000 }
+    ];
+    const callsFor = (d) => Math.floor(Math.floor(Math.floor(d * 22 * 0.025) * 0.15) * 0.5);
+
+    const company = p.company ?? 'Roundhouse';
+    const baseFaq = [
+      { q: 'Is this legal?', a: 'Yes. Work emails only, a real business address, an easy opt-out, and we follow GDPR and CAN-SPAM rules.' },
+      { q: 'Will it hurt my main email?', a: 'No. We send from separate domains, always. Your main domain is never used.' },
+      { q: 'Does it work in my industry?', a: 'If your buyers have a work email, yes. The leads above are the proof for yours.' },
+      { q: 'Am I locked in?', a: 'No. Month to month. Give it 60 days.' }
+    ];
+
+    return {
+      company: company,
+      icp: p.icp ?? 'architecture firms',
+      mainDomain: p.mainDomain ?? 'roundhouselabs.com',
+      logoUrl: p.logoUrl ?? '',
+      hasLogo: !!p.logoUrl,
+      noLogo: !p.logoUrl,
+      deckCoverUrl: p.deckCoverUrl ?? '',
+      hasDeckCover: !!p.deckCoverUrl,
+      noDeckCover: !p.deckCoverUrl,
+      deckLink: p.deckLink ?? 'deck.html',
+      deckBoxRef: this.deckBox, deckFrameRef: this.deckFrame,
+      deckHoverOn: () => { this.deckHover = true; }, deckHoverOff: () => { this.deckHover = false; },
+      bookingLink: p.bookingLink ?? 'https://calendly.com/cashflowstate',
+      brand: brand,
+      brandInk: brandInk,
+      ink: ink,
+      displayFont: p.displayFont ?? "'Funnel Display', system-ui, sans-serif",
+      bodyFont: p.bodyFont ?? "'Funnel Sans', system-ui, sans-serif",
+
+      flipNums: ['1,000', '2,000', '5,000', '10,000', '1,000'],
+      flipY: '-' + (s.step * 1.15) + 'em',
+      flipT: s.anim ? 'transform 600ms cubic-bezier(.7,0,.2,1)' : 'none',
+
+      icpSummary: C.icpSummary,
+      insights: C.insights,
+
+      leads: C.leads,
+      leadsCount: C.leads.length === 10 ? 'Ten' : String(C.leads.length),
+
+      emailFrom: C.sender,
+      emailTo: C.leads.length ? C.leads[0].email : '[lead 1 email]',
+      emailSubject: C.email.subject,
+      emailBody: C.email.body,
+
+      lookalikes: C.lookalikes,
+      grid: C.lookalikes.map((d) => ({
+        domain: d,
+        boxes: C.senders.map((x) => x + '@' + d.replace(/^\[|\]$/g, ''))
+      })),
+
+      liveSteps: [
+        { n: '01', t: 'Every reply answered by a real person' },
+        { n: '02', t: 'Every yes called within minutes' },
+        { n: '03', t: 'Materials sent so they know who you are' },
+        { n: '04', t: 'Booked on your calendar with name, company and what they said' },
+        { n: '05', t: 'Reminders before the call' },
+        { n: '06', t: 'No-shows chased and rebooked' }
+      ],
+
+      dayOptions: tierData.map((t) => {
+        const on = t.perDay === s.perDay;
+        return {
+          label: fmt(t.perDay),
+          pressed: on ? 'true' : 'false',
+          pick: () => this.setState({ perDay: t.perDay }),
+          pillStyle: on
+            ? 'background: var(--accent); color: var(--white); border: 1px solid var(--accent)'
+            : 'background: var(--white); color: var(--black); border: 1px solid var(--neutral-200); box-shadow: inset 0 0 0 1px rgb(242, 242, 242)'
+        };
+      }),
+      custValue: s.value,
+      valueLabel: '$' + fmt(s.value) + ' a year',
+      years: s.years,
+      yearsLabel: s.years + (s.years === 1 ? ' year' : ' years'),
+      onYears: (ev) => this.setState({ years: Number(ev.target.value) }),
+      yearRevenueLabel: '$' + fmt(deals * s.value),
+      closeRate: s.close,
+      onValue: (ev) => this.setState({ value: Number(ev.target.value) }),
+      onClose: (ev) => this.setState({ close: Number(ev.target.value) }),
+      feeLabel: '$' + fmt(fee),
+      calcRows: [
+        { label: 'Emails a month', value: fmt(perMonth) },
+        { label: 'Replies · 2.5% of emails', value: fmt(replies) },
+        { label: 'Interested · 15% of replies', value: fmt(interested) },
+        { label: 'Calls booked · 5 in 10 interested', value: fmt(calls) },
+        { label: 'Deals closed', value: fmt(deals) }
+      ],
+      revenueLabel: '$' + fmt(deals * s.value * s.years),
+
+      cases: [
+        { name: 'Hi Studios', text: 'A creative agency in Lausanne. Video and creative content for brands, done for you. We ran their outbound.', sent: '6,941', replied: '104', booked: '15', dash: './assets/a71d7ec78a9807efc965311df823e835.png', logo: './assets/2e7c2900daae1626356d4d0519e1414e.png' },
+        { name: 'Reborn Rental', text: 'Sells to construction companies. We emailed site managers, project leads and owners, and put Reborn in front of them.', sent: '2,243', replied: '36', booked: '22', dash: './assets/cd1e6e59c199c7c77708cb464c71524a.png', logo: './assets/23128f460f765d65091f65e3b4b977d2.png' },
+        { name: 'Bernadette Studio', text: 'Turnkey renovation in Paris. We emailed founders of interior design, architecture and luxury fit-out firms in France.', sent: '2,261', replied: '40', booked: '11', dash: './assets/cdffb04c4050ac2dde6898f762898acd.png', logo: './assets/18ab3ffdada42e4299c227f548c44d40.png' }
+      ],
+      moreCases: [
+        { contacted: '7,923', replied: '377', booked: '177', dash: './assets/6793d0694e4933ba3a1eef0f62d2a74e.png' },
+        { contacted: '18,281', replied: '519', booked: '110', dash: './assets/eb154e8c55605d729ac75c3061db1c54.png' },
+        { contacted: '2,512', replied: '344', booked: '99', dash: './assets/532cdd856aa5ebf228fe3d07a78b1716.png' },
+        { contacted: '7,581', replied: '383', booked: '137', dash: './assets/0325256dda8ee08ea3932e3f26999d80.png' }
+      ],
+
+      tiers: tierData.map((t) => {
+        const on = t.perDay === s.perDay;
+        return {
+          day: fmt(t.perDay),
+          fee: '$' + fmt(t.perDay / 1000 * 800),
+          domains: fmt(t.domains),
+          boxes: fmt(t.boxes),
+          month: fmt(t.perDay * 22),
+          calls: '≈ ' + fmt(callsFor(t.perDay)),
+          cardStyle: 'border: 1px solid ' + (on ? 'var(--accent)' : 'var(--border-subtle)')
+        };
+      }),
+
+      faq: baseFaq.concat(C.clientFaq).map((f, i) => ({ q: f.q, a: f.a, open: s.faqOpen === i, toggle: () => this.setState({ faqOpen: s.faqOpen === i ? -1 : i }) }))
+    };
+  }
+}
+</script>
+</body>
+</html>

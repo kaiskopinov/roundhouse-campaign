@@ -1,0 +1,40 @@
+/* Semantic colour aliases over the Figma variables (tokens/fig-tokens.css) + brand-mark colours sampled from the supplied Roundhouse logo PNG. */
+:root{
+/* Brand mark (sampled from assets/logos/roundhouse-logo.png) */
+--rh-cyan:#00ADEF;
+--rh-blue:#0080BB;
+--rh-taupe:#A69B93;
+/* Core */
+--accent:rgb(58,106,187);            /* --color-accent — primary CTA fill, nav dots */
+--black:rgb(0,0,0);
+--white:rgb(255,255,255);
+/* Neutrals (Figma color-neutral scale) */
+--neutral-50:rgb(250,250,250);
+--neutral-100:rgb(247,247,247);
+--neutral-200:rgb(242,242,242);
+--neutral-300:rgb(237,237,237);
+--neutral-400:rgb(230,230,230);
+--neutral-500:rgb(222,222,222);
+--neutral-600:rgb(217,217,217);
+--neutral-700:rgb(209,209,209);
+--neutral-800:rgb(194,194,194);
+--neutral-900:rgb(114,114,114);
+/* Semantic */
+--text-primary:var(--black);
+--text-secondary:rgb(114,114,114);   /* .text-color-secondary */
+--text-nav:rgb(34,34,34);            /* --color-grey-13 */
+--text-muted-logo:rgb(166,166,166);  /* --color-grey-65, placeholder logos */
+--text-on-dark:var(--white);
+--surface-page:var(--white);
+--surface-card:rgb(250,250,250);     /* cards, section bands, footer box */
+--surface-card-hover:rgb(247,247,247);
+--surface-chip:rgb(242,242,242);     /* blog-category date chip */
+--surface-badge:rgb(245,245,245);    /* --color-grey-96 */
+--surface-nav:rgba(255,255,255,0.85);/* + backdrop blur 8px */
+--border-subtle:rgb(242,242,242);    /* default 1px card/nav/FAQ border */
+--border-card:rgb(237,237,237);      /* article card border */
+--danger:rgb(230,0,35);              /* --color-red-45 */
+--link-blue:rgb(20,110,245);         /* --color-azure-52 */
+--scrim-navy-0:rgba(18,41,79,0);
+--scrim-navy-60:rgba(18,41,79,0.6);  /* banner protection gradient */
+}
